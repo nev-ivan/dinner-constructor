@@ -17,14 +17,13 @@ public class Main {
             String command = scanner.nextLine();
 
             switch (command) {
-                case "1":
-                    addNewDish();
-                    break;
-                case "2":
-                    generateDishCombo();
-                    break;
-                case "3":
+                case ("1") -> addNewDish();
+
+                case ("2") -> generateDishCombo();
+
+                case ("3") -> {
                     return;
+                }
             }
         }
     }
